@@ -63,3 +63,20 @@
         Propriétés : balance, currency
 
     Ces objets de valeur sont utilisés pour encapsuler des concepts sans identité propre, tels que les devises et les portefeuilles, qui sont essentiels pour représenter des aspects financiers dans le système.
+
+
+# Installation du projet:
+
+## Backend:
+C'est le package hotel.
+### pour La DB:
+```
+ docker run -d -p 27017:27017 --name mon-container-mongo mongo
+```
+puis lancer l'application (avec intelliJ de préférence)
+## Frontend:
+C'est le package hotelfront.
+### pour lancer (il faut installer flutter):
+```
+ flutter run -d chrome
+```
