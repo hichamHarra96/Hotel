@@ -20,25 +20,21 @@
 ## Bounded Contexts
 
    ### Hotel Context
-        Entities : Client, Réservation, Chambre
-        Value Objects : Portefeuille, Devise
-
-## Context Maps
+        Entities : Client, Réservation, Chambre, Portefeuille
+        Value Objects : Devise
+## Schema:
+![schema](./schema.png)
 
 ## Core/Supporting/Generic Domains
 
    ### Domaine Cœur (Core Domain)
-        Client
-        Réservation
-        Chambre
+        Chambre (reservation)
 
 ### Domaines de Support (Supporting Domains)
-   ...................................
+    Reservation, confirmation de reservation.
 
 ### Domaines Génériques (Generic Domains)
-    Devise
-    Portefeuille (pourrait être considéré comme générique en fonction du contexte d'utilisation)
-
+    authentification, Payement, chargement du portefeuille (toutes devises..), annulation de reservation.
 ## Design Tactique
 ## Entities
 
