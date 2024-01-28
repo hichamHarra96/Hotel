@@ -73,6 +73,10 @@ C'est le package hotel.
 ```
  docker run -d -p 27017:27017 --name mon-container-mongo mongo
 ```
+### pour lancer les test fonctionnels:
+```
+ python3 test.py
+```
 puis lancer l'application (avec intelliJ de préférence)
 ## Frontend:
 C'est le package hotelfront.
